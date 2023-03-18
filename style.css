@@ -1,4 +1,8 @@
-.portfolio{
+:root{
+    --branding-color: #6C63FF;
+}
+
+.hero{
     
     text-align: center;
    
@@ -7,7 +11,7 @@
     
 }
 
-.portfolio p {
+.hero p {
     
     font-family:"Poppins", sans-serif ;
     
@@ -17,6 +21,10 @@
     color: #272142;
 }
 
+@media (max-width: 900px)
+.hero {
+    padding: 80px 20px;
+}
 
 h1{
     font-size: 96px;
@@ -47,7 +55,7 @@ div{
 }
 
 .btn-branding{
-    background-color: #6C63FF;
+    background-color: var(branding-color);
     border-radius: 4px;
     color:#fff ;
     font-size: 18px;
