@@ -1,12 +1,20 @@
 :root{
     --branding-color: #6C63FF;
+    --background-color: #F9F7FE;
+}
+
+body{
+    margin: 0;
+    color: #212529;
+
 }
 
 .hero{
     
     text-align: center;
-   
-    background-color: #F9F7FE;
+   width: 1440px;
+   height: 900px;
+    background-color: var(--background-color) ;
     padding: 160px 20px;
     
 }
@@ -34,8 +42,8 @@ h1{
 
 p{
     font-size: 36px;
-    font-weight: bold;
-    margin: 0;
+    font-weight: normal;
+    line-height: 30px;
 
 }
 
@@ -62,3 +70,4 @@ div{
     line-height: 27px;
     padding: 15px 30px;
 }
+
