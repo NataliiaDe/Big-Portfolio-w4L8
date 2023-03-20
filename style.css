@@ -41,11 +41,16 @@ h1{
 }
 
 p{
-    font-size: 36px;
+    font-size: 16px;
     font-weight: normal;
     line-height: 30px;
 
 }
+
+text-muted{
+    color: #6c757d!important;
+}
+
 
 h2{
     font-family: "Playfair Display", serif ; 
@@ -73,6 +78,8 @@ div{
 
 .description p{
     font-size: 16px;
-    font-weight: 400;
+    font-weight: normal;
     font-family: Poppins;
 }
+
+@media(max-width: 900px)
