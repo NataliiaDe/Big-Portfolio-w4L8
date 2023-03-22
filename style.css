@@ -26,9 +26,14 @@ font-family: var(--general-font-family);
 p{
     font-weight: normal;
     font-size: 16px;
+    font-family: Poppins, sans-serif;;
     line-height: 30px;
     margin-top: 0;
     margin-bottom: 1pem;
+}
+
+.text-muted{
+    color: #6c757d!important ;
 }
 
 .hero p {
