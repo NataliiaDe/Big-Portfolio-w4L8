@@ -29,10 +29,6 @@ body{
     color: #272142;
 }
 
-@media (max-width: 900px)
-.hero {
-    padding: 80px 20px;
-}
 
 h1{
     font-size: 96px;
@@ -111,4 +107,17 @@ div{
     font-family: Poppins;
 }
 
-@media(max-width: 900px)
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 992px)
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 960px;
+}
+
+
