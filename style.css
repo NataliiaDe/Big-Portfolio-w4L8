@@ -38,10 +38,9 @@ p{
 
 
 h1{
-    font-size: 44px;
-  line-height: 88px;
-  font-weight: 700;
-  font-style: normal;
+    font-size: 96px;
+  line-height: 1,5;
+ 
 }
 
 h2{
@@ -173,4 +172,10 @@ div{
     .container{
         max-width: 540px;
     }
+}
+
+@media(min-width: 1200px){
+ h1{
+    font-size: 2,5 rem;
+}
 }
