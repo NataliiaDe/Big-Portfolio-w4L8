@@ -103,13 +103,7 @@ transition: color .15s ease-in-out,background-color .15s ease-in-out,border-colo
     padding: 15px 30px;
 }
 
-h2{
-    font-family: "Playfair Display", serif ; 
 
-line-height: 2;
-font-size: 24px;
-font-weight: normal;
-}
 
 div{
     display: block;
