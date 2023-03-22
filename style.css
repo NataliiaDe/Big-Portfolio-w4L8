@@ -38,8 +38,9 @@ p{
 
 
 h1{
-    font-size: 96px;
-  line-height: 1.5;
+    font-size: 44px;
+  line-height: 88px;
+  font-weight: 700;
 }
 
 h2{
